@@ -76,7 +76,7 @@ function createWaveCanvas(o){
         canvasCtx.stroke()
     }
 
-    let interval = setInterval( animate, fps )
+    let interval = setInterval(animate, fps)
 
-    return { canvas, interval }
+    return {canvas, interval}
 }
